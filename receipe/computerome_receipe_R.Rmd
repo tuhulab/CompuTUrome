@@ -1,0 +1,39 @@
+---
+title: "Testing on Computerome"
+author: "Tu Hu"
+date: "10/13/2020"
+output: html_document
+---
+
+```{bash}
+qsub -I -W group_list=ku_00015 -A ku_00015 -l nodes=1:ppn=80,walltime=40:00:00
+module load tools intel/perflibs/64/2020_update2 gcc/9.3.0 R/4.0.0
+R
+```
+
+```{r Load R }
+BiocManager::install("msigdbr") # install a Computerome-absent library (to a private library path) 
+library(dplyr)
+library(msigdbr)
+library(piano)
+library(snow)
+library(purrr)
+```
+
+```{r Set working directory}
+setwd("/home/projects/MY_GROUP/people/MY_NAME/MY_PROJECT")
+```
+
+```{r Doing my first job}
+mydata <- readr::read_tsv("data/mytsvdata.txt") # relative path is possible :-)
+
+```
+
+```{r Doing my second job}
+
+```
+
+```{r Saving my work}
+saveRDS(myWonderfulWork, "data/myWonderfulWork.Rds")
+```
+
