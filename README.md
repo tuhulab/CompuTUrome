@@ -16,6 +16,7 @@ Here is my quick receipe:
 - Install RStudio on the **interactive node**, using the following command:
 
     `module load tools rstudio-server/1.3.1073`
+    `rstudio1.3.1073-R.4.0.0-gcc-mkl-install`
 
 - Open a **new** terminal
   
