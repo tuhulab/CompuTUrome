@@ -33,6 +33,6 @@ Here is my quick receipe:
 
 ## clean large files
 
-find ~ -type f -size +100M
+`find ~ -type f -size +100M
 
 ## Acknowledgement
