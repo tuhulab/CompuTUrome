@@ -31,5 +31,8 @@ Here is my quick receipe:
 
 ## .bashRC
 
+## clean large files
+
+find ~ -type f -size +100M
 
 ## Acknowledgement
