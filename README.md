@@ -9,7 +9,7 @@ Here is my quick receipe:
 
 - Open an interative session
   
-  - `qsub -W group_list=ku_00015 -A ku_00015 -X -I -l nodes=1:ppn:40,mem=180gb,walltime=99:00:00` or
+  - `qsub -W group_list=ku_00015 -A ku_00015 -X -I -l nodes=1:ppn:40,mem=180gb,walltime=99:00:00 -d /home/projects/ku_00015/people/tuhu -e /home/projects/ku_00015/people/tuhu/RStudio_log/$PBS_JOBID.e -o /home/projects/ku_00015/people/tuhu/RStudio_log/$PBS_JOBID.o -N RStudio` or
 
   - `iqsub`
 
