@@ -31,5 +31,10 @@ Here is my quick receipe:
 
 ## .bashRC
 
+## utilities
+
+### find large files
+
+`find ~ -type f -size +100M`
 
 ## Acknowledgement
