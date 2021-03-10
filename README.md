@@ -36,9 +36,10 @@ Here is my quick receipe:
 ### find large files
 
 `find ~ -type f -size +100M`
-=======
-## clean large files
 
-`find ~ -type f -size +100M
+### check usage
+`module load tools usage_script/2.0`
+
+`usage -u <username> -y 2021`
 
 ## Acknowledgement
