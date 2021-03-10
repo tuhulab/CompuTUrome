@@ -17,7 +17,7 @@ Here is my quick receipe:
 
     `module load tools rstudio-server/1.3.1073`
     
-    `rstudio1.3.1073-R.4.0.0-gcc-mkl-install` OR `rstudio1.3.1073-R.4.0.0-install` (without using gcc-mkl seems more robust)
+    `rstudio1.3.1073-R.4.0.0-install`
 
 - Open a **new** terminal
   
