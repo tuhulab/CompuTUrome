@@ -2,6 +2,21 @@
 
 Tu's efficiency tricks and utilities to work on the HPC [Computerome 2.0](https://www.computerome.dk/display/C2W/Computerome+2.0+Wiki)
 
+## Running R script from the shell
+
+Write R in a `.R` document. Remark: be careful with path (realative or absolute) and loading all needing packages. It's the easiest place to make mistakes.
+
+Write another shell script (my_cool_R_job.sh)
+
+```
+cd /home/projects/ku_00015/data/ad-microbiome/
+
+module load intel/perflibs/2020_update4  gcc/9.3.0  R/4.0.0
+Rscript the_path_to_the.R
+```
+
+Qsub the `.sh`
+
 ## RStudio
 Computerome started supporting RStudio since late 2020. Please refer to the [official Wiki page](https://www.computerome.dk/display/C2W/Rstudio+Server).
 
@@ -30,6 +45,10 @@ Here is my quick receipe:
 - Type in your Computerome usr name and pw
 
 ## .bashRC
+
+### quickly go back to the project/data folder
+alias myproject="cd /home/projects/ku_00015/people/tuhu/"
+alias mydata="cd /home/projects/ku_00015/data/"
 
 ## utilities
 
