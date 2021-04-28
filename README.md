@@ -61,4 +61,7 @@ alias mydata="cd /home/projects/ku_00015/data/"
 
 `usage -u <username> -y 2021`
 
+## Running R
+`module load intel/perflibs/64/2020_update2 gcc/9.3.0 R/4.0.3`
+
 ## Acknowledgement
