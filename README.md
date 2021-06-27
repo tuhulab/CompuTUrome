@@ -11,7 +11,7 @@ Write another shell script (my_cool_R_job.sh)
 ```
 cd /home/projects/ku_00015/data/ad-microbiome/
 
-module load intel/perflibs/2020_update4  gcc/9.3.0  R/4.0.0
+module load intel/perflibs/2020_update4  gcc/9.3.0  R/4.1.0
 Rscript the_path_to_the.R
 ```
 
