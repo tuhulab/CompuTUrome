@@ -17,7 +17,8 @@ Rscript the_path_to_the.R
 
 Qsub the `.sh`
 
-## RStudio
+## RStudio Server
+
 Computerome started supporting RStudio since late 2020. Please refer to the [official Wiki page](https://www.computerome.dk/display/C2W/Rstudio+Server).
 
 Here is my quick receipe:
@@ -63,5 +64,8 @@ alias mydata="cd /home/projects/ku_00015/data/"
 
 ## Running R
 `module load intel/perflibs/64/2020_update2 gcc/9.3.0 R/4.0.3`
+
+## VSCode
+`module load vscode` doesn't work!
 
 ## Acknowledgement
