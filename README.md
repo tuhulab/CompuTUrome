@@ -62,8 +62,8 @@ alias mydata="cd /home/projects/ku_00015/data/"
 
 `usage -u <username> -y 2021`
 
-## Running R
-`module load intel/perflibs/64/2020_update2 gcc/9.3.0 R/4.0.3`
+## Running RStudio
+`module load intel/perflibs/64/2020_update2 gcc/9.3.0 R/4.1.0-GCC-MKL libxkbcommon/1.0.3 cuda/toolkit/11.4.1 rstudio/1.4.1717`
 
 ## VSCode
 `module load vscode` doesn't work!
