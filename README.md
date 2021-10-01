@@ -65,6 +65,7 @@ alias rmodule="module load intel/perflibs/64/2020_update2 gcc/9.3.0 R/4.1.0-GCC-
 
 ## Running RStudio
 `module load intel/perflibs/64/2020_update2 gcc/9.3.0 R/4.1.0-GCC-MKL libxkbcommon/1.0.3 cuda/toolkit/11.4.1 rstudio/1.4.1717`
+
 `rstudio_swrender`
 
 ## VSCode
