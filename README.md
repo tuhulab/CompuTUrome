@@ -4,20 +4,19 @@ Tu's efficiency tricks and utilities to work on the HPC [Computerome 2.0](https:
 
 ## Running R script from the shell
 
-Write R in a `.R` document. Remark: be careful with path (realative or absolute) and loading all needing packages. It's the easiest place to make mistakes.
+- Write R in a `.R` document. Remark: be careful with path (realative or absolute) and loading all needing packages. It's where the errors often happen.
 
-Write another shell script (my_cool_R_job.sh)
+- Write another shell script (my_cool_R_job.sh)
 
 ```
-cd /home/projects/ku_00015/data/ad-microbiome/
-
+cd /home/projects/ku_00015/data/ad-microbiome/ # the working directory for the R project
 module load intel/perflibs/2020_update4  gcc/9.3.0  R/4.1.0
 Rscript the_path_to_the.R
 ```
 
-Qsub the `.sh`
+- qsub the `.sh` according to the [WiKi](https://www.computerome.dk/display/C2W/Batch+System)
 
-## RStudio Server
+## RStudio Server (**Superseded. I recommend using RStudio via ThinLinc virtual desktop instead of this method**)
 
 Computerome started supporting RStudio since late 2020. Please refer to the [official Wiki page](https://www.computerome.dk/display/C2W/Rstudio+Server).
 
@@ -25,8 +24,6 @@ Here is my quick receipe:
 
 - Open an interative session
   
-  - `qsub -W group_list=ku_00015 -A ku_00015 -X -I -l nodes=1:ppn=40,mem=180gb,walltime=99:00:00 -d /home/projects/ku_00015/people/tuhu -e /home/projects/ku_00015/people/tuhu/RStudio_log/$PBS_JOBID.e -o /home/projects/ku_00015/people/tuhu/RStudio_log/$PBS_JOBID.o -N RStudio` or
-
   - `iqsub`
 
 - Install RStudio on the **interactive node**, using the following command:
@@ -68,7 +65,10 @@ alias rmodule="module load intel/perflibs/64/2020_update2 gcc/9.3.0 R/4.1.0-GCC-
 
 `rstudio_swrender`
 
+### Less is more?
+
+I noticed that `DEseq2` (a Bioconductor package for RNA-seq data) merely increase efficiency using more than 20 cores.
 ## VSCode
 `module load vscode` doesn't work!
 
-## Acknowledgement
+
