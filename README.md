@@ -65,9 +65,9 @@ alias rmodule="module load intel/perflibs/64/2020_update2 gcc/9.3.0 R/4.1.0-GCC-
 
 `rstudio_swrender`
 
-### Less is more?
-
-I noticed that `DEseq2` (a Bioconductor package for RNA-seq data) merely increase efficiency using more than 20 cores.
+### Notes on BiocParallel 
+I noticed that `DEseq2` (a Bioconductor package for RNA-seq data) merely increase efficiency using more than 20 cores, meanwhile the RAM is often the bottleneck for `DEseq2` and `dada2` (microbiome data processing). 
+So I recommend using fatnode when using `DESeq2` and `dada2`, or generally any heavy lifting backended by `BiocParallel`.
 ## VSCode
 `module load vscode` doesn't work!
 
