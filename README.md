@@ -2,9 +2,13 @@
 
 Tu's efficiency tricks and utilities to work on the HPC [Computerome 2.0](https://www.computerome.dk/display/C2W/Computerome+2.0+Wiki)
 
+## HPC general introduction (from SIB)
+
+The general idea and principle of how HPC works (https://edu.sib.swiss/pluginfile.php/6533/mod_resource/content/3/hpc/index.html?utm_source=pocket_mylist)
+
 ## Running R script from the shell
 
-- Write R in a `.R` document. Remark: be careful with path (realative or absolute) and loading all needing packages. It's where the errors often happen.
+- Write R in a `.R` document. Remark: be careful with path (realative or absolute) and loading all needed packages. It's where the errors often occur.
 
 - Write another shell script (my_cool_R_job.sh)
 
