@@ -77,7 +77,8 @@ alias rmodule="module load intel/perflibs/64/2020_update2 gcc/9.3.0 R/4.1.0-GCC-
 - Executing from `.R` file instead of RStudio
 - Avoid transmitting `large amount of data`. If unavoidable, use fewer cores to avoid dumping cores.
 - Check availabilities of `dependency packages`
+
 ## VSCode
-`module load vscode` doesn't work!
+`module load vscode` doesn't work anymore!
 
 
