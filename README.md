@@ -48,10 +48,10 @@ Here is my quick receipe:
 
 ## .bashRC
 
-### quickly go back to the project/data folder
-alias myproject="cd /home/projects/ku_00015/people/tuhu/"
-alias mydata="cd /home/projects/ku_00015/data/"
-alias rmodule="module load intel/perflibs/64/2020_update2 gcc/9.3.0 R/4.1.0-GCC-MKL libxkbcommon/1.0.3 cuda/toolkit/11.4.1 rstudio/1.4.1717"
+### quickly go back to the project/data folder`
+`alias myproject="cd /home/projects/ku_00015/people/tuhu/"`
+`alias mydata="cd /home/projects/ku_00015/data/"`
+`alias rmodule="module load intel/perflibs/64/2020_update2 gcc/9.3.0 R/4.1.0-GCC-MKL libxkbcommon/1.0.3 cuda/toolkit/11.4.1 rstudio/1.4.1717"`
 
 ## utilities
 
