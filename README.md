@@ -4,7 +4,7 @@ Tu's efficiency tricks and utilities to work on the HPC [Computerome 2.0](https:
 
 ## HPC general introduction (from SIB)
 
-The general idea and principle of how HPC works (https://edu.sib.swiss/pluginfile.php/6533/mod_resource/content/3/hpc/index.html?utm_source=pocket_mylist)
+The general idea and principle of how HPC works, from [SIB](https://edu.sib.swiss/pluginfile.php/6533/mod_resource/content/3/hpc/index.html?utm_source=pocket_mylist)
 
 ## Running R script from the shell
 
