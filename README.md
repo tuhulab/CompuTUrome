@@ -81,4 +81,6 @@ Here is my quick receipe:
 ## VSCode
 `module load vscode` doesn't work anymore!
 
+## Bashrc
+`alias ssidata="cd /home/projects/cu_10181/data"`
 
